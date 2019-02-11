@@ -1,0 +1,34 @@
+//vector n numeros, imprimir pocision k
+int vec[n];
+int r:
+srand(time(Null))
+for(int i=0;i<n;i++)
+{
+vec[i]=rand();
+}
+for(int i=0;i<n;i++)
+{
+if(vec[i]==k)
+printf("%i",vec[n];
+}
+
+//matriz cuadrada, imprimir diagonal
+int mat[n][n];
+for(int i=0; i<n;i++)
+{
+for(int j=0; j<n;j++)
+{
+if(i==j)
+cout<<vec[i][j];
+}
+}
+//imprimir diagonal invertida
+int mat[n][n];
+for(int i=0; i<n;i++)
+{
+for(int j=0; j<n;j++)
+{
+if(i+j==n-1)
+cout<<vec[i][j];
+}
+}
